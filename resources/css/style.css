@@ -28,13 +28,38 @@
 
 html body {
   font-family: "PT Sans";
+  
 }
 
 /* Header */
 
+header {
+  background-color: hsla(203, 3%, 24%, 1);
+  color: white;
+}
+
 /*====================
     Navigation
 =====================*/
+
+header nav {
+
+}
+
+#myTunes ul {
+
+}
+
+#myTunes li {
+
+}
+
+#myTunes a {
+  color: white;
+}
+
+/*==================*/
+/*==================*/
 
 /* Main */
 
@@ -42,27 +67,156 @@ html body {
     Main Styles
 =====================*/
 
+main {
+
+}
+
+main .main-panels {
+
+}
+
+main .bottom-panels {
+
+}
+
+/*==================*/
+/*==================*/
+
 /* Main Sections */
 
 /*====================
       Overview
 =====================*/
 
+#overview {
+  background-image: url(../images/showcase.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#overview h1 {
+
+}
+
+#overview h3 {
+
+}
+
+#overview p {
+
+}
+
 /*====================
         Music
 =====================*/
+
+#music {
+  background-color: hsla(203, 6%, 15%, 1);
+  color: white;
+}
+
+#music h1 {
+
+}
+
+#music h3 {
+
+}
+
+#music p {
+
+}
+
+#music .small {
+
+}
+
+#music button {
+
+}
+
+#music img {
+
+}
 
 /*====================
         Video
 =====================*/
 
+#video {
+
+}
+
+#video h3 {
+
+}
+
+#video p {
+
+}
+
+#video button {
+
+}
+
+#video img {
+
+}
+
 /*====================
     Entertainment
 =====================*/
 
+.entertainment {
+  background-image: url(../images/section-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.entertainment h3 {
+
+}
+
+.entertainment p {
+
+}
+
 /*====================
       Gift Cards
 =====================*/
+
+#gift-cards {
+
+}
+
+#gift-cards h3 {
+
+}
+
+#gift-cards p {
+
+}
+
+#gift-cards .redeem {
+
+}
+
+#gift-cards i {
+
+}
+
+#gift-cards hr {
+
+}
+
+#gift-cards img {
+
+}
+
+/*==================*/
+/*==================*/
 
 /* Bottom Panels */
 
@@ -70,24 +224,145 @@ html body {
     Bottom Panels
 =====================*/
 
+.bottom-panels {
+  background-color: hsla(203, 6%, 15%, 1);
+  color: white;
+}
+
+.bottom-panels h3 {
+
+}
+
+.bottom-panels ul {
+
+}
+
+.bottom-panels li {
+
+}
+
+.bottom-panels a {
+  color: white;
+}
+
 /*====================
         Shop
 =====================*/
+
+.shop {
+
+}
+
+.shop h3 {
+
+}
+
+.shop ul {
+
+}
+
+.shop li {
+
+}
+
+.shop a {
+
+}
 
 /*====================
         Orange
 =====================*/
 
+.orange {
+
+}
+
+.orange h3 {
+
+}
+
+.orange ul {
+
+}
+
+.orange li {
+
+}
+
+.orange a {
+
+}
+
 /*====================
       Education
 =====================*/
+
+.education {
+
+}
+
+.education h3 {
+
+}
+
+.education ul {
+
+}
+
+.education li {
+
+}
+
+.education a {
+
+}
 
 /*====================
         About
 =====================*/
 
+.about {
+
+}
+
+.about h3 {
+
+}
+
+.about ul {
+
+}
+
+.about li {
+
+}
+
+.about a {
+
+}
+
+/*==================*/
+/*==================*/
+
 /* Footer */
+
+footer {
+  background-color: hsla(203, 3%, 24%, 1);
+  color: white;
+}
 
 /*====================
     Footer Content
 =====================*/
+
+.footer-content {
+
+}
+
+.footer-content p {
+
+}
+
+.footer-content span {
+
+}
