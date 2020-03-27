@@ -28,34 +28,46 @@
 
 html body {
   font-family: "PT Sans";
-  
+
+}
+
+body {
+  margin: 0;
 }
 
 /* Header */
 
 header {
-  background-color: hsla(203, 3%, 24%, 1);
+  background-color: #333;
   color: white;
 }
+/* Add hover transitions for individual nav links rgb(51, 34, 34)
+(also maybe not this color, lighter color gray on hover)*/
 
 /*====================
     Navigation
 =====================*/
 
 header nav {
-
+  height: 100%;
 }
 
 #myTunes ul {
-
+  display: flex;
+  margin-top: 0;
 }
 
 #myTunes li {
-
+  display: inline;
+  list-style-type: none;
+  padding-right: 5%;
+  padding-top: 1%;
 }
 
 #myTunes a {
   color: white;
+  text-decoration: none;
+
 }
 
 /*==================*/
@@ -96,7 +108,7 @@ main .bottom-panels {
 }
 
 #overview h1 {
-
+  margin-top: 0;
 }
 
 #overview h3 {
@@ -104,7 +116,7 @@ main .bottom-panels {
 }
 
 #overview p {
-
+  margin-bottom: 0;
 }
 
 /*====================
@@ -117,7 +129,8 @@ main .bottom-panels {
 }
 
 #music h1 {
-
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #music h3 {
@@ -133,7 +146,9 @@ main .bottom-panels {
 }
 
 #music button {
-
+  background-color: blue;
+  border: 0px solid blue;
+  color: white;
 }
 
 #music img {
@@ -149,7 +164,7 @@ main .bottom-panels {
 }
 
 #video h3 {
-
+  margin-top: 0;
 }
 
 #video p {
@@ -157,7 +172,9 @@ main .bottom-panels {
 }
 
 #video button {
-
+  background-color: red;
+  border: 0px solid red;
+  color: white;
 }
 
 #video img {
@@ -176,11 +193,11 @@ main .bottom-panels {
 }
 
 .entertainment h3 {
-
+  margin-top: 0;
 }
 
 .entertainment p {
-
+  margin-bottom: 0;
 }
 
 /*====================
@@ -192,7 +209,7 @@ main .bottom-panels {
 }
 
 #gift-cards h3 {
-
+  margin-top: 0;
 }
 
 #gift-cards p {
@@ -200,7 +217,7 @@ main .bottom-panels {
 }
 
 #gift-cards .redeem {
-
+  margin-bottom: 0;
 }
 
 #gift-cards i {
@@ -227,22 +244,44 @@ main .bottom-panels {
 .bottom-panels {
   background-color: hsla(203, 6%, 15%, 1);
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 20%;
+}
+
+.panel {
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.panel hr {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0.5px solid ghostwhite;
+  /* Research changing horizontal rule thickness */
 }
 
 .bottom-panels h3 {
-
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
 }
 
 .bottom-panels ul {
-
+  font-weight: 400;
 }
 
 .bottom-panels li {
-
+  list-style-type: none;
 }
 
 .bottom-panels a {
   color: white;
+  text-decoration: none;
 }
 
 /*====================
@@ -266,6 +305,10 @@ main .bottom-panels {
 }
 
 .shop a {
+
+}
+
+.shop hr {
 
 }
 
@@ -293,6 +336,10 @@ main .bottom-panels {
 
 }
 
+.orange hr {
+
+}
+
 /*====================
       Education
 =====================*/
@@ -317,6 +364,10 @@ main .bottom-panels {
 
 }
 
+.education hr {
+
+}
+
 /*====================
         About
 =====================*/
@@ -330,7 +381,7 @@ main .bottom-panels {
 }
 
 .about ul {
-
+  margin-bottom: 0;
 }
 
 .about li {
@@ -341,13 +392,17 @@ main .bottom-panels {
 
 }
 
+.about hr {
+
+}
+
 /*==================*/
 /*==================*/
 
 /* Footer */
 
 footer {
-  background-color: hsla(203, 3%, 24%, 1);
+  background-color: #333;
   color: white;
 }
 
@@ -360,7 +415,7 @@ footer {
 }
 
 .footer-content p {
-
+  margin-top: 0;
 }
 
 .footer-content span {
