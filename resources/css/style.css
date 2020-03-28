@@ -147,33 +147,54 @@ main .bottom-panels {
 #music {
   background-color: hsla(203, 6%, 15%, 1);
   color: white;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 #music h1 {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 2.6rem;
 }
 
 #music h3 {
-
+  padding-top: 1%;
+  font-size: 2rem;
 }
 
 #music p {
-
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-left: 4%;
+  padding-right: 4%;
+  line-height: 1.7;
 }
 
 #music .small {
-
+  font-size: 1rem;
+  padding-bottom: 1%;
 }
 
 #music button {
-  background-color: blue;
-  border: 0px solid blue;
+  background-color: rgb(185, 4, 21);
+  border: 0px solid rgb(185, 4, 21);
+  font-size: 1rem;
+  color: white;
+  margin: 2% 0;
+  padding: 1.7% 1%;
+  font-family: "Arial";
+  /* (#d3071b on hover transition) */
+}
+
+#music button a {
+  text-decoration: none;
   color: white;
 }
 
 #music img {
-
+  width: 91%;
 }
 
 /*====================
@@ -193,8 +214,8 @@ main .bottom-panels {
 }
 
 #video button {
-  background-color: red;
-  border: 0px solid red;
+  background-color: blue;
+  border: 0px solid blue;
   color: white;
 }
 
