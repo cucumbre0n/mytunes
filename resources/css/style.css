@@ -47,8 +47,6 @@ header {
   z-index: 1;
   width: 100%;
 }
-/* Add hover transitions for individual nav links rgb(51, 34, 34)
-(also maybe not this color, lighter color gray on hover)*/
 
 /*====================
     Navigation
@@ -59,26 +57,36 @@ header nav {
   width: 75%;
 }
 
-#myTunes ul {
-  display: flex;
+#myTunes-desktop ul {
+  display: block;
   margin-top: 0;
   padding-left: 0.5%;
-  justify-content: space-around;
   align-items; baseline;
   width: 60%;
+  padding-left: 2%;
 }
 
-#myTunes li {
-  display: inline;
+#myTunes-desktop li {
+  display: inline-block;
   list-style-type: none;
-  padding-top: 1.8%;
+  height: 100%;
+  margin-right: 3%;
+  padding: 2% 2% 3% 2%;
 }
 
-#myTunes a {
+#myTunes-desktop li:hover {
+  background-color: #444;
+}
+
+#myTunes-desktop a {
   color: white;
   text-decoration: none;
   font-weight: 400;
-  padding-left: 0;
+  width: 100%;
+}
+
+#myTunes-mobile {
+  display: none;
 }
 
 /*==================*/
@@ -178,7 +186,7 @@ main .bottom-panels {
   padding-bottom: 1%;
 }
 
-#music button {
+#music input {
   background-color: rgb(185, 4, 21);
   border: 0px solid rgb(185, 4, 21);
   font-size: 1rem;
@@ -186,7 +194,12 @@ main .bottom-panels {
   margin: 2% 0;
   padding: 1.7% 1%;
   font-family: "Arial";
-  /* (#d3071b on hover transition) */
+  transition-property: background-color;
+}
+
+#music input:hover {
+  background-color: #d3071b;
+  transition-duration: 0.3s;
 }
 
 #music button a {
@@ -228,7 +241,7 @@ main .bottom-panels {
   margin-bottom: 0;
 }
 
-#video button {
+#video input {
   background-color: rgb(16, 48, 99);
   border: 0px solid rgb(16, 48, 99);
   color: white;
@@ -237,12 +250,12 @@ main .bottom-panels {
   margin: 2% 0 0 0;
   padding: 1.7% 1.2%;
   font-family: "Arial";
-  /* (#143f85 on hover transistion) */
+  transition-property: background-color;
 }
 
-#video button a {
-  text-decoration: none;
-  color: white;
+#video input:hover {
+  background-color: #143f85;
+  transition-duration: 0.3s;
 }
 
 #video img {
@@ -414,115 +427,11 @@ main .bottom-panels {
 }
 
 /*====================
-        Shop
-=====================*/
-
-.shop {
-
-}
-
-.shop h3 {
-
-}
-
-.shop ul {
-
-}
-
-.shop li {
-
-}
-
-.shop a {
-
-}
-
-.shop hr {
-
-}
-
-/*====================
-        Orange
-=====================*/
-
-.orange {
-
-}
-
-.orange h3 {
-
-}
-
-.orange ul {
-
-}
-
-.orange li {
-
-}
-
-.orange a {
-
-}
-
-.orange hr {
-
-}
-
-/*====================
-      Education
-=====================*/
-
-.education {
-
-}
-
-.education h3 {
-
-}
-
-.education ul {
-
-}
-
-.education li {
-
-}
-
-.education a {
-
-}
-
-.education hr {
-
-}
-
-/*====================
         About
 =====================*/
 
-.about {
-
-}
-
-.about h3 {
-
-}
-
 .about ul {
   margin-bottom: 0;
-}
-
-.about li {
-
-}
-
-.about a {
-
-}
-
-.about hr {
-
 }
 
 /*==================*/
@@ -552,4 +461,31 @@ footer {
 
 .footer-content span {
   font-size: 0.6rem;
+}
+
+/*==================*/
+/*==================*/
+
+/*====================
+    Small Screens
+=====================*/
+
+@media only screen and (max-width: 800px) {
+
+  #myTunes-desktop {
+    display: none;
+  }
+
+  #my-Tunes-mobile {
+    display: visible;
+    color: white;
+  }
+
+  .bottom-panels {
+    display: none;
+  }
+
+  .footer-content span {
+
+  }
 }
