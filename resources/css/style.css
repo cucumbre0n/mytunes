@@ -27,7 +27,7 @@
 }
 
 html body {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -287,31 +287,64 @@ main .bottom-panels {
 =====================*/
 
 #gift-cards {
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+  display: flex;
+  width: 100%;
+  margin-right: 0;
+  background-color: rgb(244, 244, 244);
+}
 
+#gift-cards .giftcards-text {
+  width: 100%;
+  margin-right: 0;
 }
 
 #gift-cards h3 {
   margin-top: 0;
+  font-size: 1.5rem;
 }
 
 #gift-cards p {
-
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+  width: 92%;
 }
 
 #gift-cards .redeem {
   margin-bottom: 0;
+  height: 25%;
+}
+
+#gift-cards .redeem p {
+
 }
 
 #gift-cards i {
+  color: rgb(16, 48, 99);
+}
 
+#gift-cards a {
+  color: rgb(16, 48, 99);
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 #gift-cards hr {
-
+  width: 85%;
+  margin-top: 2%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1%;
 }
 
 #gift-cards img {
-  width: 100%;
+  width: 45%;
+  height: 45%;
+  margin-right: 3%;
 }
 
 /*==================*/
@@ -327,34 +360,44 @@ main .bottom-panels {
   background-color: hsla(203, 6%, 15%, 1);
   color: white;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 20%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-bottom: 3%;
+  justify-content: flex-start;
 }
 
 .panel {
   padding-right: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  width: 18%;
 }
 
 .panel hr {
+  color: ghostwhite;
   width: 100%;
   margin-top: 0;
+  margin-left: 2px;
+  margin-right: 2px;
   margin-bottom: 0;
   border: 0.5px solid ghostwhite;
-  /* Research changing horizontal rule thickness */
+  opacity: 0.3;
 }
 
 .bottom-panels h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 400;
+  border-bottom-color: rgb(68, 68, 68);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 8px;
 }
 
 .bottom-panels ul {
   font-weight: 400;
+  padding-left: 0;
+  width: 165px;
+  height: 184.5px;
+  height: 100%;
 }
 
 .bottom-panels li {
@@ -363,7 +406,11 @@ main .bottom-panels {
 
 .bottom-panels a {
   color: white;
+  font-weight: 400;
+  opacity: 0.7;
   text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 /*====================
@@ -486,6 +533,7 @@ main .bottom-panels {
 footer {
   background-color: #333;
   color: white;
+  height: 50px;
 }
 
 /*====================
@@ -493,7 +541,8 @@ footer {
 =====================*/
 
 .footer-content {
-
+  padding-top: 1.25%;
+  text-align: center;
 }
 
 .footer-content p {
@@ -502,5 +551,5 @@ footer {
 }
 
 .footer-content span {
-
+  font-size: 0.6rem;
 }
