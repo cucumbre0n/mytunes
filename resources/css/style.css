@@ -64,13 +64,14 @@ header nav {
   margin-top: 0;
   padding-left: 0.5%;
   justify-content: space-around;
+  align-items; baseline;
   width: 60%;
 }
 
 #myTunes li {
   display: inline;
   list-style-type: none;
-  padding-top: 1.9%;
+  padding-top: 1.8%;
 }
 
 #myTunes a {
@@ -202,25 +203,50 @@ main .bottom-panels {
 =====================*/
 
 #video {
-
+  text-align: center;
+  padding-top: 5.2%;
+  padding-bottom: 3%;
+  background-color: rgb(244, 244, 244);
 }
 
 #video h3 {
   margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
+  opacity: 0.8;
+  margin-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #video p {
-
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.7;
+  margin-bottom: 0;
 }
 
 #video button {
-  background-color: blue;
-  border: 0px solid blue;
+  background-color: rgb(16, 48, 99);
+  border: 0px solid rgb(16, 48, 99);
+  color: white;
+  font-size: 1rem;
+  color: white;
+  margin: 2% 0 0 0;
+  padding: 1.7% 1.2%;
+  font-family: "Arial";
+  /* (#143f85 on hover transistion) */
+}
+
+#video button a {
+  text-decoration: none;
   color: white;
 }
 
 #video img {
-
+  width: 92%;
 }
 
 /*====================
